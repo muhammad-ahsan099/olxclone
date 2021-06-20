@@ -19,7 +19,7 @@ const MobileProducts = () => {
 
 
   return (
-    <>
+    <div>
 
 <h2  style={{fontFamily: 'cursive' , marginTop: 50 , textAlign: 'center' , fontSize: 34 , color:'#2E3B60'}} >Mobile Products</h2>
 
@@ -55,7 +55,7 @@ const MobileProducts = () => {
 
       </Grid>
     </main>
-    </>
+    </div>
   );
 };
 

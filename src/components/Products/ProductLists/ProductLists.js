@@ -4,6 +4,7 @@ import React from 'react';
 import { Card, CardMedia, CardContent, CardActions, Typography, IconButton } from '@material-ui/core';
 import { AddShoppingCart } from '@material-ui/icons';
 import FavoriteBorderIcon from '@material-ui/icons/FavoriteBorder';
+import {Link} from 'react-router-dom'
 
 import useStyles from './styles';
 
@@ -11,7 +12,8 @@ function ProductLists({product , index , addtoFav})  {
   const classes = useStyles();
 
   return (
-    <Card className={classes.root}>
+    
+        <Card className={classes.root} >
 
       <CardMedia className={classes.media} image={product.image} title="Product Media"   /> 
       <CardContent>
@@ -38,6 +40,8 @@ function ProductLists({product , index , addtoFav})  {
         
       </CardActions>
     </Card>
+    
+
     
   );
 };

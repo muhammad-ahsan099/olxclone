@@ -1,13 +1,13 @@
 
 import React from 'react';
 import './slideImage.css';
-import slideImage from '../../Assets/imgOLX.PNG';
+import slideImage from '../../Assets/images/imgOLX.PNG';
 
 
 function SildeImage() {
     return (
         <div>
-            <div className='imageSlide' style={{ marginTop: 100 }}>
+            <div className='imageSlide' style={{ marginTop:  5}}>
                 <img src={slideImage} alt="SlideImage" />
 
             </div>

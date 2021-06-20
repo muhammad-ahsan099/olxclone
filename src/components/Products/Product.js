@@ -17,9 +17,13 @@ const Products = () => {
 
 
   return (
-    <>
     
-    <main className={classes.content}>
+    
+
+
+
+    
+    <main className={classes.content} style={{minHeight: '700px'}}>
     <h2  style={{fontFamily: 'cursive' , marginTop: 50 ,  fontSize: 24 , color:'#2E3B60'}} >Fresh Recommendations</h2>
       <div className={classes.toolbar} />
       <Grid container justify="center" spacing={4}>
@@ -30,7 +34,7 @@ const Products = () => {
                 {
                  
                   return(
-              <Grid  item xs={12} sm={6} md={4} lg={3}>
+              <Grid  item xs={12} sm={6} md={4} lg={3} >
                   <ProductLists  index={index} product={item} addtoFav={addtoFav} />
               </Grid>
                   )
@@ -45,7 +49,7 @@ const Products = () => {
 
       </Grid>
     </main>
-    </>
+    
   );
 };
 

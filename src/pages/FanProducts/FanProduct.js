@@ -18,7 +18,7 @@ const FanProducts = () => {
 
 
   return (
-    <>
+    <div>
     <h2  style={{fontFamily: 'cursive' , marginTop: 50 , textAlign: 'center' , fontSize: 34 , color:'#2E3B60'}} >Fan Products</h2>
 
     <main className={classes.content}>
@@ -53,7 +53,7 @@ const FanProducts = () => {
 
       </Grid>
     </main>
-    </>
+    </div>
   );
 };
 

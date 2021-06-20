@@ -18,7 +18,7 @@ const MensProducts = () => {
 
 
   return (
-    <>
+    <div>
      <h2  style={{fontFamily: 'cursive' , marginTop: 50 , textAlign: 'center' , fontSize: 34 , color:'#2E3B60'}} >Men's Product</h2>
     <main className={classes.content}>
       <div className={classes.toolbar} />
@@ -52,7 +52,7 @@ const MensProducts = () => {
 
       </Grid>
     </main>
-    </>
+    </div>
   );
 };
 
